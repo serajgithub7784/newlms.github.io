@@ -1,0 +1,50 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block childpage %}
+<div class="text-center fs-2">Our<b class="txt-mycolor1"> Facility</b></div>
+<!-- start latest news -->
+<div class="row news py-3">
+  <div class="col-sm-10 mx-auto">
+    <div class="row">
+   <div class="col-sm-3 py-2">
+     <div class="card">
+       <img src="{% static 'images/student1.jpg'%}" class="card-img-top"/>
+       <div class="card-body">
+         <h5 class="card-title">Jamshed Ahmed</h5>
+         <b>BCA </b><br/>
+         <a href="#" class="btn bg-mycolor2 text-light mt-2">Contact now
+         <i class="fa-regular fa-eye"></i>
+         </a><br/>
+
+           <b class="text-muted">Updated at:
+             <i class="fa-regular fa-calendar-days"></i>
+           </b>7PM 09-09-2023
+
+       </div>
+     </div>
+   </div>
+        <!-- new row -->
+          <div class="col-sm-3 py-2">
+     <div class="card">
+       <img src="{% static 'images/student.jpg'%}" class="card-img-top"/>
+       <div class="card-body">
+         <h5 class="card-title">Mohd Irfan</h5>
+         <b>B.TECH</b><br/>
+         <a href="#" class="btn bg-mycolor2 text-light mt-2">Contact now
+         <i class="fa-regular fa-eye"></i>
+         </a><br/>
+
+           <b class="text-muted">Updated at:
+             <i class="fa-regular fa-calendar-days"></i>
+           </b>7PM 09-09-2023
+
+       </div>
+     </div>
+   </div>
+        <!-- end new row -->
+    </div>
+  </div>
+</div>
+<!-- end latest news -->
+
+{% endblock %}
